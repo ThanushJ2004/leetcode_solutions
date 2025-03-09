@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def is_prime(self,n):
         for i in range(3,int(n**0.5)+1,2):
@@ -33,5 +31,3 @@ class Solution:
             return [-1,-1]
         else:
             return [pa,pb]
-a=Solution()
-print(a.closestPrimes(1,100))
